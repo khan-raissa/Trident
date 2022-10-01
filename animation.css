@@ -1,0 +1,191 @@
+@keyframes slideLeft {
+    0% {
+        transform: translateX(-200%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+.slideLeft {
+    animation-name: slideLeft;
+    animation-delay: 0s;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+}
+
+.slideRight {
+    animation-name: slideRight;
+    animation-delay: 0s;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+}
+
+@keyframes slideRight {
+    100% {
+        transform: translateX(-100%);
+    }
+
+    0% {
+        transform: translateX(100%);
+    }
+}
+
+/*.slideRightH1 {
+    animation-name: slideRight;
+    animation-delay: 0s;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+}
+
+@keyframes slideRight {
+    100% {
+        transform: translateX(-100%);
+    }
+
+    0% {
+        transform: translateX(100%);
+    }
+}
+*/
+.slideDown {
+    animation-name: slideDown;
+    animation-delay: 0s;
+    animation-duration: 0.6s;
+    animation-timing-function: ease-in;
+}
+
+@keyframes slideDown {
+    0% {
+        transform: translateY(-100%);
+    }
+
+    100% {
+        transform: translateY(0%);
+    }
+
+}
+
+.slideMenu {
+    animation-name: slideAnime;
+    animation-delay: 0s;
+    animation-duration: 0.6s;
+    animation-timing-function: ease-in;
+    transform-origin: center top;
+}
+
+@keyframes slideAnime {
+    0% {
+        transform: translateY(5%);
+    }
+
+    100% {
+        transform: translateY(10%);
+    }
+
+}
+
+/*.animationMenu{
+        animation-name: animationMenu;
+        animation-delay: 0s;
+        animation-duration: 8s;
+        animation-timing-function: ease;
+        transform-origin: top center;
+    }
+    @keyframes animationMenu {
+        10%{
+            transform:  translateX(100%);
+        }
+        100%{
+            transform: translateY(10%);
+        }
+        
+    }*/
+
+/*.transitionMenu{
+    transition-property: transitDrop;
+    transition-duration: 400ms;
+    transition-timing-function: ease;
+}
+@keyframes transitDrop {
+       0%{ transform: translateX(-100%);
+       }
+       100%{
+        transform: translateX(0%);
+       }
+}*/
+
+/*.transitionDropDown{
+    transform: translateX(0px);
+    transform: translateY(0px);
+    transition: transform 400ms ease;
+}*/
+.dropAnimation {
+    animation-name: dropDownAnime;
+    animation-timing-function: ease-in-out;
+    animation-duration: 800ms;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+}
+
+@keyframes dropDownAnime {
+    0% {
+        transform: rotateX(90deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.zoom{
+    transition: transform .7s;
+}
+.zoom:hover{
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+}
+.slideRightP {
+    animation-name: slideRightP;
+    animation-delay: 0s;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+}
+
+@keyframes slideRightP {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-10%);
+    }
+}
+
+.fadeInUp{
+    animation-name: fadeIn;
+    animation-duration: 3s;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    animation-timing-function: ease;
+}
+@keyframes fadeIn{
+    0%{
+        opacity:0;
+
+    }
+    100%{
+        opacity:1;
+    }
+}
+.fade{
+    animation-name:fade;
+    animation-duration: 2s;
+}
+@keyframes fade{
+    from{opacity: 0.4}
+    to{opacity: 1}
+}

@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trident</title>
+    <link rel="stylesheet" type="text/css" href="TridentStyle.css">
+    <link rel="stylesheet" type="text/css" href="/animation.css">
+</head>
+
+<body>
+    <div class="container">
+        <div id="logo" class="slideDown"><img src="../images/mainlogo-removebg-preview.png"></div>
+        <!--<div><button id="openOverlay" class="slideDown open" onclick="openbtn()">&#9776</button></div>
+        <div><button id="closeOverlay" class="close" onclick="closebtn()">&times</button></div>
+        -->
+        <div><button id="openBtn" class="slideDown open" onclick="clickBtn();add()">&#9776</button></div>
+        <nav class="navhead" id="navId">
+            <ul class="slideDown navhead-ul" id="nav-content">
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About Us</a></li>
+                <li>
+                    <div class="dropdown"><a href="#Services">Services<button id="dropbtn"
+                                onclick="showDrop()"><i>&#9660;</i></button></a>
+                        <div class="dropdown-content" id="dropdownBox">
+                            <ul>
+                                <li><a href="#smarthome">Smart Home Integration</a></li>
+                                <li><a href="#homeCinema">Home Cinema's</a></li>
+                                <li><a href="#smartLight">Smart / Centralised Lighting</a></li>
+                                <li><a href="#stream">Streaming And Meida Control</a></li>
+                                <li><a href="#homeNetworks">Home Networks</a></li>
+                                <li><a href="#multi">Multi Room Audio</a></li>
+                                <li><a href="#prewire">Prewire</a></li>
+                                <li><a href="#maintenance">Maintenance And Updates</a></li>
+                                <li><a href="#brands">Brands And Association</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+
+                <li><a href="#Contact">Contact Us</a></li>
+
+            </ul>
+        </nav>
+    </div>
+
+    <section class="section0" id="Home">
+        <div class="lines">
+            <hr id="line1" class="slideRight">
+            <hr id="line2" class="slideLeft">
+            <hr id="line3" class="slideLeft">
+            <h1 class="slideLeft">RESIDENTIAL <br> TECHNOLOGY<br> SOLUTIONS</h1>
+            <hr id="line4" class="slideLeft">
+            <hr id="line5" class="slideLeft">
+            <hr id="line6" class="slideRight">
+        </div>
+    </section>
+    <section class="section1" id="About">
+        <div id="aboutHead" class="dropAnimation">
+            <h1>GIVE <br>YOUR HOME <br>THE SMART<br>IT DESERVES!</h1>
+        </div>
+        <div id="polygon">
+            <svg id="svg1" class="zoom" height="50">
+                <polygon id="polygon1" points="40,0 20,40 590,40 620,0" />
+                <text x="40" y="25">We are full-service home automation and residential technology integrator</text>
+            </svg>
+            <svg class="zoom" id="svg2" height="50">
+                <polygon id="polygon2" points="40,0 20,40 590,40 620,0" /><text x="40" y="25">We Help you to build a
+                    system that will work for your lifestyle</text>
+            </svg>
+            <svg class="zoom" id="svg3" height="50">
+                <polygon id="polygon3" points="40,0 20,40 590,40 620,0" /><text x="40" y="25">We offer the solutions
+                    that work for your home and business</text>
+            </svg>
+            <svg class="zoom" id="svg4" height="50">
+                <polygon id="polygon4" points="40,0 20,40 590,40 620,0" /><text x="40" y="25">We are there for you even
+                    after the complete installation</text>
+            </svg>
+
+        </div>
+        <div id="polygonmb">
+            <svg class="zoom" id="svg1_0" height="50" width="0">
+                <polygon id="polygon1.0" points="80,0 50,20 470,20 490,0" />
+                <text x="80" y="15">We are full-service home automation and residential technology integrator</text>
+            </svg>
+            <svg class="zoom" id="svg2_0" height="50" width="0">
+                <polygon id="polygon2.0" points="80,0 50,20 470,20 490,0" />
+                <text x="80" y="15">We Help you to build a system that will work for your lifestyle</text>
+            </svg>
+            <svg class="zoom" id="svg3_0" height="50" width="0">
+                <polygon id="polygon3.0" points="80,0 50,20 470,20 490,0" />
+                <text x="80" y="15">We offer the solutions that work for your home and business</text>
+            </svg>
+            <svg class="zoom" id="svg4_0" height="50" width="0">
+                <polygon id="polygon4.0" points="80,0 50,20 470,20 490,0" />
+                <text x="80" y="15">We are there for you even after the complete installation</text>
+            </svg>
+    </section>
+
+    <section class="section2 fadeInUp" id="smarthome">
+        <div id="smh1">
+            <h1>SMART HOME INTEGRATION</h1>
+        </div>
+        <div class="smcontainer">
+            <img src="/images/TB5.jpg" id="smhimg">
+        </div>
+
+    </section>
+    <section class="section3" id="homeCinema">
+        <div id="hc">
+            <h1>HOME CINEMA'S</h1>
+        </div>
+        <div class="slideContainer">
+
+            <div class="slideShow fade">
+                <div class="ntxt">1/5</div>
+                <img src="/images/homeCinema1.jpg" class="slideImg">
+            </div>
+
+            <div class="slideShow fade">
+                <div class="ntxt">2/5</div>
+                <img src="/images/homeCinema2.jpg" class="slideImg">
+            </div>
+
+            <div class="slideShow fade">
+                <div class="ntxt">3/5</div>
+                <img src="/images/homeCinema3.jpg" class="slideImg">
+            </div>
+
+            <div class="slideShow fade">
+                <div class="ntxt">4/5</div>
+                <img src="/images/homeCinema4.jpg" class="slideImg">
+            </div>
+            <div class="slideShow fade">
+                <div class="ntxt">5/5</div>
+                <img src="/images/homeCinema5.jpg" class="slideImg">
+            </div>
+
+            <a class="prev" onclick="prevSlides()">&#10094</a>
+            <a class="next" onclick="showSlides()">&#10095</a>
+
+
+
+
+        </div>
+    </section>
+
+    <section class="section4" id="smartLight">
+       
+
+        <div id="rSlide" class="rFlex">
+            <div>
+                <h1>SMART / CENTRALISED LIGHTING</h1>
+            </div>
+            <div class="rangeSlider">
+                <input type="range" id="brightnessRange" step="1" smooth=yes min="25" max="100" value="100"
+                    onchange="range(this)" oninput="range(this)">
+            </div>
+            
+        </div>
+        
+
+    </section>
+
+
+
+    <script>
+
+
+        function clickBtn() {
+            var element = document.getElementById("navId");
+            element.classList.toggle("navOpen");
+
+            var element2 = document.getElementById("nav-content");
+            element2.classList.toggle("navContent");
+
+            /*var element3= document.getElementById("openBtn");
+            element3.classList.add("dropAnimation");*/
+
+            /*document.getElementById("nav-content").style.animation="dropAnimation";
+            /*document.getElementById("navId").style.transition="transitionDropDown";*/
+            /*document.getElementById("nav-content").style.animation="slideDown";*/
+            /*document.getElementById("nav-content").style.animation="slideRight";*/
+        }
+        function showDrop() {
+            var x = document.getElementById("dropdownBox");
+            if (x.style.display == "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+
+        function add() {
+            var removeAnime = document.getElementById("nav-content");
+            removeAnime.classList.remove("slideDown");
+            var addAnime = document.getElementById("nav-content");
+            addAnime.classList.add("dropAnimation");
+        }
+
+        let slideIndex = 0;
+        let timeOut = 2000;
+        let autoOn = true;
+        showSlides();
+        autoSlides();
+        function autoSlides() {
+            timeOut = timeOut - 20;
+            if (autoOn == true && timeOut < 0) {
+                showSlides();
+            }
+            setTimeout(autoSlides, 20);
+        }
+        function prevSlides() {
+            timeOut = 3000;
+            var slides = document.getElementsByClassName("slideShow");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex--;
+            if (slideIndex > slides.length) {
+                slideIndex = 1;
+            }
+
+            if (slideIndex == 0) {
+                slideIndex = 5;
+            }
+            slides[slideIndex - 1].style.display = "block";
+        }
+
+        function showSlides() {
+            timeOut = 5000;
+            let i;
+            let slides = document.getElementsByClassName("slideShow");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) { slideIndex = 1 }
+            slides[slideIndex - 1].style.display = "block";
+        }
+        function range(e) {
+            var range = document.getElementById("rSlide");
+            var val = e.value;
+            range.setAttribute("style", "filter:brightness(" + val + "%);")
+        }
+    </script>
+</body>
+
+</html>
